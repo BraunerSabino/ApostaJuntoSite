@@ -1,0 +1,57 @@
+/* ...existing code... */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.vertical-menu {
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow: auto;
+    background-color: #333;
+}
+
+.vertical-menu a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #575757;
+}
+
+.main-content {
+    margin-left: 220px; /* Ajuste conforme necessário */
+    padding: 16px;
+    padding-top: 80px; /* Espaço para o cabeçalho */
+    padding-bottom: 80px; /* Espaço para o rodapé */
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    padding: 16px;
+    width: calc(100% - 200px); /* Ajuste conforme necessário */
+    margin-left: 200px; /* Ajuste conforme necessário */
+    position: fixed;
+    left: 0;
+}
+
+header {
+    top: 0;
+}
+
+footer {
+    bottom: 0;
+}
+
+/* Cole aqui o CSS específico do site */
+
+/* ...existing code... */
